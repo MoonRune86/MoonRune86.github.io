@@ -44,7 +44,13 @@ h3 {
     width: 75px;
 
     padding: 10px;
+    transition: filter .5s;
+    filter: grayscale(100%)
   }
+.deviconlistimg:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
 
 .flex-container {
     display: flex;
@@ -89,6 +95,7 @@ h3 {
 }
 
 .contactdiv {
+    color: white;
     margin-top: 30px;
     text-align: center;
 }
