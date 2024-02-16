@@ -56,7 +56,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    width: auto;
   }
 
 .experencelist {
@@ -96,6 +96,44 @@ h3 {
 
 .contactdiv {
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
     text-align: center;
+    background-color: rgb(48, 47, 47);
+}
+
+.projectitem {
+    padding: 20px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    margin-top: 20px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column
+}
+
+.projectdiv {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.projectdiscrip {
+    width: 100%;
+    text-align: left;
+}
+
+.projectimg {
+    width: 100%;
+}
+
+.plsworkclass {
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
